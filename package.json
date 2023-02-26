@@ -1,0 +1,27 @@
+{
+	"name": "chessboard_game",
+	"version": "1.0.0",
+	"description": "This is chess board game assignment to find knight possible moves",
+	"main": "./build/app.js",
+	"scripts": {
+		"start": "npm run build && node ./build/app.js",
+		"dev": "ts-node ./src/app.ts",
+		"clean": "rimraf ./build",
+		"build": "npm run clean && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"keywords": [
+		"Chess Board"
+	],
+	"author": "MD ASIF JAWED",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^18.14.1",
+		"ts-node": "^10.9.1",
+		"rimraf": "^4.1.2",
+		"typescript": "^4.9.5"
+	}
+}
